@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24020BE32D2930E100AC0DB6 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24020BE22D2930E100AC0DB6 /* OnboardingController.swift */; };
+		24020BE52D293C6000AC0DB6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24020BE42D293C6000AC0DB6 /* LoginController.swift */; };
+		24020BE72D294F9100AC0DB6 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24020BE62D294F9100AC0DB6 /* RegisterController.swift */; };
+		24020BE92D29517100AC0DB6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24020BE82D29517100AC0DB6 /* User.swift */; };
+		24020BEC2D29527B00AC0DB6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24020BEB2D29527B00AC0DB6 /* LoginViewModel.swift */; };
+		24020BEF2D2952A400AC0DB6 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24020BEE2D2952A400AC0DB6 /* RegisterViewModel.swift */; };
+		24020BF12D2952BF00AC0DB6 /* FIleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24020BF02D2952BF00AC0DB6 /* FIleManager.swift */; };
 		241225382D2928D600143D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241225372D2928D600143D50 /* AppDelegate.swift */; };
 		2412253A2D2928D600143D50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241225392D2928D600143D50 /* SceneDelegate.swift */; };
-		2412253C2D2928D600143D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2412253B2D2928D600143D50 /* ViewController.swift */; };
 		2412253F2D2928D600143D50 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2412253E2D2928D600143D50 /* Base */; };
 		241225422D2928D600143D50 /* ZooApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 241225402D2928D600143D50 /* ZooApp.xcdatamodeld */; };
 		241225442D2928D900143D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241225432D2928D900143D50 /* Assets.xcassets */; };
@@ -34,10 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24020BE22D2930E100AC0DB6 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		24020BE42D293C6000AC0DB6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		24020BE62D294F9100AC0DB6 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		24020BE82D29517100AC0DB6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		24020BEB2D29527B00AC0DB6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		24020BEE2D2952A400AC0DB6 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		24020BF02D2952BF00AC0DB6 /* FIleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIleManager.swift; sourceTree = "<group>"; };
 		241225342D2928D600143D50 /* ZooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		241225372D2928D600143D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		241225392D2928D600143D50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2412253B2D2928D600143D50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2412253E2D2928D600143D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		241225412D2928D600143D50 /* ZooApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZooApp.xcdatamodel; sourceTree = "<group>"; };
 		241225432D2928D900143D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,9 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24020BEA2D29525F00AC0DB6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				24020BE42D293C6000AC0DB6 /* LoginController.swift */,
+				24020BEB2D29527B00AC0DB6 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		24020BED2D29528500AC0DB6 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				24020BE62D294F9100AC0DB6 /* RegisterController.swift */,
+				24020BEE2D2952A400AC0DB6 /* RegisterViewModel.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		2412252B2D2928D600143D50 = {
 			isa = PBXGroup;
 			children = (
+				24020BE22D2930E100AC0DB6 /* OnboardingController.swift */,
+				24020BEA2D29525F00AC0DB6 /* Login */,
+				24020BED2D29528500AC0DB6 /* Register */,
+				24020BF02D2952BF00AC0DB6 /* FIleManager.swift */,
+				24020BE82D29517100AC0DB6 /* User.swift */,
 				241225362D2928D600143D50 /* ZooApp */,
 				241225352D2928D600143D50 /* Products */,
 			);
@@ -95,7 +130,6 @@
 			children = (
 				241225372D2928D600143D50 /* AppDelegate.swift */,
 				241225392D2928D600143D50 /* SceneDelegate.swift */,
-				2412253B2D2928D600143D50 /* ViewController.swift */,
 				2412253D2D2928D600143D50 /* Main.storyboard */,
 				241225432D2928D900143D50 /* Assets.xcassets */,
 				241225452D2928D900143D50 /* LaunchScreen.storyboard */,
@@ -236,10 +270,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24020BE32D2930E100AC0DB6 /* OnboardingController.swift in Sources */,
 				241225422D2928D600143D50 /* ZooApp.xcdatamodeld in Sources */,
-				2412253C2D2928D600143D50 /* ViewController.swift in Sources */,
+				24020BE72D294F9100AC0DB6 /* RegisterController.swift in Sources */,
 				241225382D2928D600143D50 /* AppDelegate.swift in Sources */,
+				24020BEC2D29527B00AC0DB6 /* LoginViewModel.swift in Sources */,
+				24020BF12D2952BF00AC0DB6 /* FIleManager.swift in Sources */,
 				2412253A2D2928D600143D50 /* SceneDelegate.swift in Sources */,
+				24020BE52D293C6000AC0DB6 /* LoginController.swift in Sources */,
+				24020BEF2D2952A400AC0DB6 /* RegisterViewModel.swift in Sources */,
+				24020BE92D29517100AC0DB6 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
