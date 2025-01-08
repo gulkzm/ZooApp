@@ -21,6 +21,11 @@ class RegisterController: UIViewController {
     }
     
     @IBAction func registerButton(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "UITabBarController") as! UITabBarController
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return }
+        guard let window = windowScene.windows.first else { return }
+        window.rootViewController = controller
+        window.makeKeyAndVisible()
     }
     
 }

@@ -1,0 +1,77 @@
+[
+    {
+        "zooName": "San Diego Zoo",
+        "zooImage": "sand.image",
+        "animals": [
+            {
+                "animalName": "Lion",
+                "animalImage": "lion.image",
+                "animalDescription": "Known as the King of the Jungle, lions live in prides and are found in savannas and grasslands. Male lions have majestic manes."
+            },
+            {
+                "animalName": "Tiger",
+                "animalImage": "tiger.image",
+                "animalDescription": " The largest wild cats, tigers are solitary hunters with iconic orange and black stripes. They live in forests and grasslands."
+            },
+            {
+                "animalName": "Giant Panda",
+                "animalImage": "panda.image",
+                "animalDescription": "Native to China, these gentle bears are famous for their black-and-white fur and bamboo diet."
+            },
+            {
+                "animalName": "Koala",
+                "animalImage": "koala.image",
+                "animalDescription": "Marsupials found in Australia, koalas sleep for up to 20 hours a day and feed on eucalyptus leaves."
+            },
+            {
+                "animalName": "Gorilla",
+                "animalImage": "gorilla.image",
+                "animalDescription": "Gentle primates living in forests, gorillas are known for their intelligence, strength, and close-knit family groups."
+            },
+            {
+                "animalName": "Polar Bear",
+                "animalImage": "bear.image",
+                "animalDescription": "These powerful swimmers live in the Arctic and depend on sea ice to hunt seals."
+            }
+        ]
+        
+    },
+    {
+        "zooName": "Singapore Zoo ",
+        "zooImage": "singapore.image",
+        "animals": [
+            {
+                "animalName": "Orangutan",
+                "animalImage": "orangutan.image",
+                "animalDescription": "Tree-dwelling apes found in Borneo and Sumatra, known for their reddish fur and high intelligence."
+            },
+            {
+                "animalName": "White Tiger",
+                "animalImage": "wtiger.image",
+                "animalDescription": "A rare color variant of Bengal tigers, white tigers have blue eyes and white fur with black stripes."
+            },
+            {
+                "animalName": "Zebra",
+                "animalImage": "zebra.image",
+                "animalDescription": "African animals with distinctive black-and-white stripes. Each zebra's pattern is unique."
+            },
+            {
+                "animalName": "Kangaroo",
+                "animalImage": "kangoroo.image",
+                "animalDescription": "Marsupials native to Australia, kangaroos hop on powerful hind legs and carry their young in pouches."
+            },
+            {
+                "animalName": "Stork",
+                "animalImage": "stork.image",
+                "animalDescription": "Long-legged wading birds often associated with wetlands and rivers."
+            },
+            {
+                "animalName": "Hornbill",
+                "animalImage": "hornbill.image",
+                "animalDescription": "ropical birds with large, curved beaks often found in rainforests."
+            }
+        ]
+    }
+]
+ 
+
