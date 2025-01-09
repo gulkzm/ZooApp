@@ -25,6 +25,16 @@
 		241225422D2928D600143D50 /* ZooApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 241225402D2928D600143D50 /* ZooApp.xcdatamodeld */; };
 		241225442D2928D900143D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241225432D2928D900143D50 /* Assets.xcassets */; };
 		241225472D2928D900143D50 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 241225462D2928D900143D50 /* Base */; };
+		241BE2972D2E92FD002F0BD0 /* AnimalDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BE2962D2E92FD002F0BD0 /* AnimalDetailController.swift */; };
+		241BE2992D2E963D002F0BD0 /* AnimalDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BE2982D2E963D002F0BD0 /* AnimalDetailViewModel.swift */; };
+		243E9BA12D2FB05D006E20FB /* ZooDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E9BA02D2FB05D006E20FB /* ZooDetailController.swift */; };
+		243E9BA42D2FB08F006E20FB /* ZooDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E9BA22D2FB08F006E20FB /* ZooDetailCell.swift */; };
+		243E9BA52D2FB08F006E20FB /* ZooDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243E9BA32D2FB08F006E20FB /* ZooDetailCell.xib */; };
+		243E9BA82D2FE85A006E20FB /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E9BA72D2FE85A006E20FB /* CoreData.swift */; };
+		243E9BAA2D2FE863006E20FB /* ZooData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E9BA92D2FE863006E20FB /* ZooData.swift */; };
+		243E9BB52D2FE8EF006E20FB /* ZooDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E9BB32D2FE8EF006E20FB /* ZooDetails+CoreDataClass.swift */; };
+		243E9BB62D2FE8EF006E20FB /* ZooDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E9BB42D2FE8EF006E20FB /* ZooDetails+CoreDataProperties.swift */; };
+		243E9BB92D2FF208006E20FB /* ZooDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E9BB82D2FF208006E20FB /* ZooDetail.swift */; };
 		243FA5E22D2C150600C98E5A /* AnimalListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FA5E12D2C150600C98E5A /* AnimalListController.swift */; };
 		243FA5E42D2C3FB300C98E5A /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FA5E32D2C3FB300C98E5A /* AnimalViewModel.swift */; };
 		243FA62F2D2D614800C98E5A /* ZooFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 243FA62E2D2D614800C98E5A /* ZooFile.json */; };
@@ -73,6 +83,16 @@
 		241225482D2928D900143D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2412254D2D2928D900143D50 /* ZooAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		241225572D2928D900143D50 /* ZooAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241BE2962D2E92FD002F0BD0 /* AnimalDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailController.swift; sourceTree = "<group>"; };
+		241BE2982D2E963D002F0BD0 /* AnimalDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewModel.swift; sourceTree = "<group>"; };
+		243E9BA02D2FB05D006E20FB /* ZooDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooDetailController.swift; sourceTree = "<group>"; };
+		243E9BA22D2FB08F006E20FB /* ZooDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooDetailCell.swift; sourceTree = "<group>"; };
+		243E9BA32D2FB08F006E20FB /* ZooDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZooDetailCell.xib; sourceTree = "<group>"; };
+		243E9BA72D2FE85A006E20FB /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		243E9BA92D2FE863006E20FB /* ZooData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooData.swift; sourceTree = "<group>"; };
+		243E9BB32D2FE8EF006E20FB /* ZooDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZooDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		243E9BB42D2FE8EF006E20FB /* ZooDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZooDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		243E9BB82D2FF208006E20FB /* ZooDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooDetail.swift; sourceTree = "<group>"; };
 		243FA5E12D2C150600C98E5A /* AnimalListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListController.swift; sourceTree = "<group>"; };
 		243FA5E32D2C3FB300C98E5A /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
 		243FA62E2D2D614800C98E5A /* ZooFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ZooFile.json; sourceTree = "<group>"; };
@@ -128,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				24020BF72D2BCFB900AC0DB6 /* Zoo.swift */,
+				243E9BB82D2FF208006E20FB /* ZooDetail.swift */,
 				24020BE82D29517100AC0DB6 /* User.swift */,
 			);
 			path = Model;
@@ -145,8 +166,13 @@
 		2412252B2D2928D600143D50 = {
 			isa = PBXGroup;
 			children = (
+				243E9BB72D2FE904006E20FB /* Core Data */,
+				243E9BA02D2FB05D006E20FB /* ZooDetailController.swift */,
+				243E9BA22D2FB08F006E20FB /* ZooDetailCell.swift */,
+				243E9BA32D2FB08F006E20FB /* ZooDetailCell.xib */,
 				241225362D2928D600143D50 /* ZooApp */,
-				24020BF02D2952BF00AC0DB6 /* FIleManager.swift */,
+				241225402D2928D600143D50 /* ZooApp.xcdatamodeld */,
+				243E9BA62D2FE7FD006E20FB /* Zoo Data Model */,
 				241225352D2928D600143D50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,8 +196,11 @@
 				24020BF52D2BCF8900AC0DB6 /* Model */,
 				24020BF92D2BDCA500AC0DB6 /* ReusableView */,
 				243FA63F2D2DAD8E00C98E5A /* Home */,
-				243FA6402D2DADAE00C98E5A /* AnimalController */,
 				243FA63E2D2DAD4100C98E5A /* Cell */,
+				243FA6402D2DADAE00C98E5A /* AnimalList */,
+				243E9B9E2D2FAFB3006E20FB /* AnimalDetail */,
+				243E9B9F2D2FB00D006E20FB /* ZooDetail */,
+				24020BF02D2952BF00AC0DB6 /* FIleManager.swift */,
 				241225372D2928D600143D50 /* AppDelegate.swift */,
 				241225392D2928D600143D50 /* SceneDelegate.swift */,
 				2412253D2D2928D600143D50 /* Main.storyboard */,
@@ -179,9 +208,42 @@
 				241225482D2928D900143D50 /* Info.plist */,
 				241225432D2928D900143D50 /* Assets.xcassets */,
 				243FA62E2D2D614800C98E5A /* ZooFile.json */,
-				241225402D2928D600143D50 /* ZooApp.xcdatamodeld */,
 			);
 			path = ZooApp;
+			sourceTree = "<group>";
+		};
+		243E9B9E2D2FAFB3006E20FB /* AnimalDetail */ = {
+			isa = PBXGroup;
+			children = (
+				241BE2962D2E92FD002F0BD0 /* AnimalDetailController.swift */,
+				241BE2982D2E963D002F0BD0 /* AnimalDetailViewModel.swift */,
+			);
+			path = AnimalDetail;
+			sourceTree = "<group>";
+		};
+		243E9B9F2D2FB00D006E20FB /* ZooDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZooDetail;
+			sourceTree = "<group>";
+		};
+		243E9BA62D2FE7FD006E20FB /* Zoo Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				243E9BA92D2FE863006E20FB /* ZooData.swift */,
+				243E9BA72D2FE85A006E20FB /* CoreData.swift */,
+			);
+			path = "Zoo Data Model";
+			sourceTree = "<group>";
+		};
+		243E9BB72D2FE904006E20FB /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				243E9BB42D2FE8EF006E20FB /* ZooDetails+CoreDataProperties.swift */,
+				243E9BB32D2FE8EF006E20FB /* ZooDetails+CoreDataClass.swift */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 		243FA63E2D2DAD4100C98E5A /* Cell */ = {
@@ -203,13 +265,13 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		243FA6402D2DADAE00C98E5A /* AnimalController */ = {
+		243FA6402D2DADAE00C98E5A /* AnimalList */ = {
 			isa = PBXGroup;
 			children = (
 				243FA5E12D2C150600C98E5A /* AnimalListController.swift */,
 				243FA5E32D2C3FB300C98E5A /* AnimalViewModel.swift */,
 			);
-			path = AnimalController;
+			path = AnimalList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24020C002D2BDD4F00AC0DB6 /* ZooCell.xib in Resources */,
+				243E9BA52D2FB08F006E20FB /* ZooDetailCell.xib in Resources */,
 				243FA6362D2D948900C98E5A /* CustomCell.xib in Resources */,
 				241225442D2928D900143D50 /* Assets.xcassets in Resources */,
 				241225472D2928D900143D50 /* Base in Resources */,
@@ -347,22 +410,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				24020BE32D2930E100AC0DB6 /* OnboardingController.swift in Sources */,
+				243E9BB52D2FE8EF006E20FB /* ZooDetails+CoreDataClass.swift in Sources */,
+				243E9BB62D2FE8EF006E20FB /* ZooDetails+CoreDataProperties.swift in Sources */,
+				243E9BB92D2FF208006E20FB /* ZooDetail.swift in Sources */,
 				241225422D2928D600143D50 /* ZooApp.xcdatamodeld in Sources */,
 				243FA6372D2D948900C98E5A /* CustomCell.swift in Sources */,
 				24020BF32D2977DD00AC0DB6 /* HomeController.swift in Sources */,
 				24020C012D2BDD4F00AC0DB6 /* ZooCell.swift in Sources */,
+				243E9BA12D2FB05D006E20FB /* ZooDetailController.swift in Sources */,
 				24020BE72D294F9100AC0DB6 /* RegisterController.swift in Sources */,
 				241225382D2928D600143D50 /* AppDelegate.swift in Sources */,
 				24020C052D2BFC0600AC0DB6 /* ZooViewModel.swift in Sources */,
 				24020BEC2D29527B00AC0DB6 /* LoginViewModel.swift in Sources */,
 				24020BF12D2952BF00AC0DB6 /* FIleManager.swift in Sources */,
+				243E9BA42D2FB08F006E20FB /* ZooDetailCell.swift in Sources */,
 				2412253A2D2928D600143D50 /* SceneDelegate.swift in Sources */,
 				24020BF82D2BCFB900AC0DB6 /* Zoo.swift in Sources */,
 				24020BE52D293C6000AC0DB6 /* LoginController.swift in Sources */,
 				243FA5E22D2C150600C98E5A /* AnimalListController.swift in Sources */,
+				241BE2972D2E92FD002F0BD0 /* AnimalDetailController.swift in Sources */,
+				241BE2992D2E963D002F0BD0 /* AnimalDetailViewModel.swift in Sources */,
+				243E9BAA2D2FE863006E20FB /* ZooData.swift in Sources */,
 				243FA63D2D2D9C3100C98E5A /* ZooListCell.swift in Sources */,
 				24020BEF2D2952A400AC0DB6 /* RegisterViewModel.swift in Sources */,
 				243FA5E42D2C3FB300C98E5A /* AnimalViewModel.swift in Sources */,
+				243E9BA82D2FE85A006E20FB /* CoreData.swift in Sources */,
 				24020BE92D29517100AC0DB6 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

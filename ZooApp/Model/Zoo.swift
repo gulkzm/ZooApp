@@ -10,6 +10,9 @@ import Foundation
 struct Zoo: Codable {
     let zooName: String?
     let zooImage: String?
+    let adultPrice: String?
+    let chilPrice: String?
+    let location: String?
     let animals: [Animal]?
 }
 

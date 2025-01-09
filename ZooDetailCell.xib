@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ZooDetailCell" reuseIdentifier="ZooDetailCell" id="gTV-IL-0wX" customClass="ZooDetailCell" customModule="ZooApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="268"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="268"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JKg-VD-k1q">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="268"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mq-kU-nAe">
+                                <rect key="frame" x="24" y="18" width="284" height="30"/>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ticket price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ua0-qS-h3G">
+                                <rect key="frame" x="23.999999999999993" y="140.66666666666666" width="94.333333333333314" height="24.333333333333343"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adult:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfv-eU-YbZ">
+                                <rect key="frame" x="26" y="171" width="36" height="19"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygv-Aq-3ee">
+                                <rect key="frame" x="26" y="193" width="36" height="19"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map-2" translatesAutoresizingMaskIntoConstraints="NO" id="Jtx-4Y-ADd">
+                                <rect key="frame" x="24" y="228" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="BXi-mx-tev"/>
+                                    <constraint firstAttribute="height" constant="20" id="vBW-FF-PXG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dd1-eD-Aj5">
+                                <rect key="frame" x="52" y="233" width="34.333333333333343" height="19"/>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Regular" family="Noto Sans Kannada" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fda-rL-Da0">
+                                <rect key="frame" x="70" y="171.33333333333334" width="39.333333333333343" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya-Bold" family="Noto Sans Oriya" pointSize="15"/>
+                                <color key="textColor" name="soDarkGren"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4c-pL-kaL">
+                                <rect key="frame" x="70" y="194.66666666666666" width="39.333333333333343" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya-Bold" family="Noto Sans Oriya" pointSize="15"/>
+                                <color key="textColor" name="soDarkGren"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ydQ-yq-Vc8">
+                                <rect key="frame" x="212" y="108" width="100" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4IS-SO-0lk"/>
+                                    <constraint firstAttribute="height" constant="140" id="zlA-sX-Qt4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="veryDark"/>
+                        <constraints>
+                            <constraint firstItem="2mq-kU-nAe" firstAttribute="top" secondItem="JKg-VD-k1q" secondAttribute="top" constant="18" id="2M7-5X-QYb"/>
+                            <constraint firstItem="2mq-kU-nAe" firstAttribute="leading" secondItem="JKg-VD-k1q" secondAttribute="leading" constant="24" id="35x-I8-Ow0"/>
+                            <constraint firstItem="R4c-pL-kaL" firstAttribute="top" secondItem="fda-rL-Da0" secondAttribute="bottom" constant="3" id="F5e-o4-DKN"/>
+                            <constraint firstAttribute="trailing" secondItem="2mq-kU-nAe" secondAttribute="trailing" constant="24" id="JSf-gi-xMn"/>
+                            <constraint firstItem="fda-rL-Da0" firstAttribute="leading" secondItem="kfv-eU-YbZ" secondAttribute="trailing" constant="8" id="K1g-lw-VNr"/>
+                            <constraint firstItem="kfv-eU-YbZ" firstAttribute="leading" secondItem="JKg-VD-k1q" secondAttribute="leading" constant="26" id="KBZ-8H-yI8"/>
+                            <constraint firstItem="Ua0-qS-h3G" firstAttribute="leading" secondItem="JKg-VD-k1q" secondAttribute="leading" constant="24" id="KJV-0n-NDC"/>
+                            <constraint firstItem="ygv-Aq-3ee" firstAttribute="leading" secondItem="JKg-VD-k1q" secondAttribute="leading" constant="26" id="L5I-UI-h8g"/>
+                            <constraint firstItem="R4c-pL-kaL" firstAttribute="leading" secondItem="ygv-Aq-3ee" secondAttribute="trailing" constant="8" id="SH2-eT-tnA"/>
+                            <constraint firstAttribute="bottom" secondItem="ydQ-yq-Vc8" secondAttribute="bottom" constant="20" id="Wdl-Ge-Hh4"/>
+                            <constraint firstItem="Jtx-4Y-ADd" firstAttribute="leading" secondItem="JKg-VD-k1q" secondAttribute="leading" constant="24" id="Xec-8F-xZx"/>
+                            <constraint firstItem="kfv-eU-YbZ" firstAttribute="top" secondItem="Ua0-qS-h3G" secondAttribute="bottom" constant="6" id="ege-9K-Fu6"/>
+                            <constraint firstAttribute="bottom" secondItem="ygv-Aq-3ee" secondAttribute="bottom" constant="56" id="fA9-Sc-ZbH"/>
+                            <constraint firstItem="dd1-eD-Aj5" firstAttribute="leading" secondItem="Jtx-4Y-ADd" secondAttribute="trailing" constant="8" id="gRC-QT-Cac"/>
+                            <constraint firstAttribute="trailing" secondItem="ydQ-yq-Vc8" secondAttribute="trailing" constant="20" id="gX6-ma-iVB"/>
+                            <constraint firstAttribute="bottom" secondItem="kfv-eU-YbZ" secondAttribute="bottom" constant="78" id="myq-06-Q6b"/>
+                            <constraint firstAttribute="bottom" secondItem="Jtx-4Y-ADd" secondAttribute="bottom" constant="20" id="oE0-n7-L2P"/>
+                            <constraint firstItem="dd1-eD-Aj5" firstAttribute="top" secondItem="R4c-pL-kaL" secondAttribute="bottom" constant="18" id="sWr-9j-QPg"/>
+                            <constraint firstAttribute="bottom" secondItem="dd1-eD-Aj5" secondAttribute="bottom" constant="16" id="vzW-Ub-7cU"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="JKg-VD-k1q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dIl-wF-CRp"/>
+                <constraint firstAttribute="bottom" secondItem="JKg-VD-k1q" secondAttribute="bottom" id="mxj-OJ-qtZ"/>
+                <constraint firstItem="JKg-VD-k1q" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="n2E-si-JKP"/>
+                <constraint firstAttribute="trailing" secondItem="JKg-VD-k1q" secondAttribute="trailing" id="ngp-3E-qNV"/>
+            </constraints>
+            <size key="customSize" width="394" height="225"/>
+            <connections>
+                <outlet property="adultPrice" destination="fda-rL-Da0" id="SIy-5G-2UD"/>
+                <outlet property="childPrice" destination="R4c-pL-kaL" id="VaI-4E-rft"/>
+                <outlet property="location" destination="dd1-eD-Aj5" id="ZZd-Pe-Eda"/>
+                <outlet property="photo" destination="ydQ-yq-Vc8" id="OP6-FQ-QCa"/>
+                <outlet property="zooTitle" destination="2mq-kU-nAe" id="Pac-ia-fnM"/>
+            </connections>
+            <point key="canvasLocation" x="314.50381679389312" y="80.281690140845072"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="map-2" width="512" height="512"/>
+        <namedColor name="soDarkGren">
+            <color red="0.082352941176470587" green="0.23529411764705882" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="veryDark">
+            <color red="0.15294117647058825" green="0.68235294117647061" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
