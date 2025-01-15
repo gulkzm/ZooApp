@@ -12,6 +12,7 @@ class CoreData {
     var context = AppDelegate().persistentContainer.viewContext
     var items = [ZooDetails]()
     
+    
     var callback: (() -> Void)?
     init(context: NSManagedObjectContext) {
         self.context = context

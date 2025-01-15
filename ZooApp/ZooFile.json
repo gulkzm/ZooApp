@@ -2,35 +2,42 @@
     {
         "zooName": "San Diego Zoo",
         "zooImage": "sand.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Lion",
                 "animalImage": "lion.image",
+                "isFavorite": false,
                 "animalDescription": "Known as the King of the Jungle, lions live in prides and are found in savannas and grasslands. Male lions have majestic manes."
             },
             {
                 "animalName": "Tiger",
                 "animalImage": "tiger.image",
+                "isFavorite": false,
                 "animalDescription": "The largest wild cats, tigers are solitary hunters with iconic orange and black stripes. They live in forests and grasslands."
             },
             {
                 "animalName": "Giant Panda",
                 "animalImage": "panda.image",
+                "isFavorite": false,
                 "animalDescription": "Native to China, these gentle bears are famous for their black-and-white fur and bamboo diet."
             },
             {
                 "animalName": "Koala",
                 "animalImage": "koala.image",
+                "isFavorite": false,
                 "animalDescription": "Marsupials found in Australia, koalas sleep for up to 20 hours a day and feed on eucalyptus leaves."
             },
             {
                 "animalName": "Gorilla",
                 "animalImage": "gorilla.image",
+                "isFavorite": false,
                 "animalDescription": "Gentle primates living in forests, gorillas are known for their intelligence, strength, and close-knit family groups."
             },
             {
                 "animalName": "Polar Bear",
                 "animalImage": "bear.image",
+                "isFavorite": false,
                 "animalDescription": "These powerful swimmers live in the Arctic and depend on sea ice to hunt seals."
             }
         ]
@@ -39,35 +46,42 @@
     {
         "zooName": "Singapore Zoo",
         "zooImage": "singapore.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Orangutan",
                 "animalImage": "orangutan.image",
+                "isFavorite": false,
                 "animalDescription": "Tree-dwelling apes found in Borneo and Sumatra, known for their reddish fur and high intelligence."
             },
             {
                 "animalName": "White Tiger",
                 "animalImage": "wtiger.image",
+                "isFavorite": false,
                 "animalDescription": "A rare color variant of Bengal tigers, white tigers have blue eyes and white fur with black stripes."
             },
             {
                 "animalName": "Zebra",
                 "animalImage": "zebra.image",
+                "isFavorite": false,
                 "animalDescription": "African animals with distinctive black-and-white stripes. Each zebra's pattern is unique."
             },
             {
                 "animalName": "Kangaroo",
                 "animalImage": "kangoroo.image",
+                "isFavorite": false,
                 "animalDescription": "Marsupials native to Australia, kangaroos hop on powerful hind legs and carry their young in pouches."
             },
             {
                 "animalName": "Stork",
                 "animalImage": "stork.image",
+                "isFavorite": false,
                 "animalDescription": "Long-legged wading birds often associated with wetlands and rivers."
             },
             {
                 "animalName": "Hornbill",
                 "animalImage": "hornbill.image",
+                "isFavorite": false,
                 "animalDescription": "Tropical birds with large, curved beaks often found in rainforests."
             }
         ]
@@ -75,35 +89,42 @@
     {
         "zooName": "Berlin Zoo",
         "zooImage": "berlin.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Giant Panda",
                 "animalImage": "panda.image",
+                "isFavorite": false,
                 "animalDescription": "Native to China, these gentle bears are famous for their black-and-white fur and bamboo diet."
             },
             {
                 "animalName": "Leopard",
                 "animalImage": "leopard.image",
+                "isFavorite": false,
                 "animalDescription": "These stealthy big cats are skilled climbers, known for their spotted coats."
             },
             {
                 "animalName": "Chimpanzee",
                 "animalImage": "chimpanzee.image",
+                "isFavorite": false,
                 "animalDescription": "Highly intelligent primates, chimps live in social groups and use tools in the wild."
             },
             {
                 "animalName": "Peacock",
                 "animalImage": "peacock.image",
+                "isFavorite": false,
                 "animalDescription": "Known for their iridescent blue and green plumage and elaborate tail feathers displayed during courtship."
             },
             {
                 "animalName": "Gecko",
                 "animalImage": "gecko.image",
+                "isFavorite": false,
                 "animalDescription": "Geckos are fascinating and diverse lizards found in warm climates around the world. They are known for their adaptability, unique physical traits, and vibrant colors."
             },
             {
                 "animalName": "Penguins",
                 "animalImage": "penguin.image",
+                "isFavorite": false,
                 "animalDescription": "Flightless birds adapted for swimming, found mostly in the Southern Hemisphere."
             }
         ]
@@ -111,35 +132,42 @@
     {
         "zooName": "Bronx Zoo",
         "zooImage": "bronx.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Red Panda",
                 "animalImage": "rpanda.image",
+                "isFavorite": false,
                 "animalDescription": "Small, tree-dwelling mammals native to the Himalayas, with reddish fur and a bushy tail."
             },
             {
                 "animalName": "Snow Leopard",
                 "animalImage": "sleopard.image",
+                "isFavorite": false,
                 "animalDescription": "Rare and elusive big cats adapted to the cold, rocky mountains of Central Asia."
             },
             {
                 "animalName": "Otter",
                 "animalImage": "otter.image",
+                "isFavorite": false,
                 "animalDescription": "Playful aquatic mammals known for their sleek fur and habit of using rocks to crack open shells."
             },
             {
                 "animalName": "Bald Eagle",
                 "animalImage": "eagle.image",
+                "isFavorite": false,
                 "animalDescription": "A symbol of the USA, these powerful birds of prey have white heads and strong talons."
             },
             {
                 "animalName": "Parrot",
                 "animalImage": "parrot.image",
+                "isFavorite": false,
                 "animalDescription": "Colorful and intelligent birds known for their ability to mimic sounds."
             },
             {
                 "animalName": "King Cobra",
                 "animalImage": "cobra.image",
+                "isFavorite": false,
                 "animalDescription": "The world’s longest venomous snakes, cobras are revered and feared for their hood and venom."
             }
         ]
@@ -147,35 +175,42 @@
     {
         "zooName": "Chester Zoo",
         "zooImage": "chester.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Jaguar",
                 "animalImage": "jaguar.image",
+                "isFavorite": false,
                 "animalDescription": "Found in the Americas, these powerful big cats are excellent swimmers and have spotted coats."
             },
             {
                 "animalName": "Cheetah",
                 "animalImage": "cheetah.image",
+                "isFavorite": false,
                 "animalDescription": "The fastest land animals, cheetahs are slender cats built for speed."
             },
             {
                 "animalName": "Sloth",
                 "animalImage": "sloth.image",
+                "isFavorite": false,
                 "animalDescription": "Tree-dwelling mammals known for their slow movements and hanging upside down."
             },
             {
                 "animalName": "Hornbill",
                 "animalImage": "hornbill.image",
+                "isFavorite": false,
                 "animalDescription": "Tropical birds with large, curved beaks often found in rainforests."
             },
             {
                 "animalName": "Flamingo",
                 "animalImage": "flamingo.image",
+                "isFavorite": false,
                 "animalDescription": "Wading birds with pink plumage due to their diet of shrimp and algae."
             },
             {
                 "animalName": "Lemur",
                 "animalImage": "lemur.image",
+                "isFavorite": false,
                 "animalDescription": "Lemurs are unique primates found only on the island of Madagascar and some smaller neighboring islands. They are known for their playful behavior, large expressive eyes, and diverse species."
             }
         ]
@@ -183,35 +218,42 @@
     {
         "zooName": "Vienna Zoo",
         "zooImage": "vienna.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Arctic Wolve",
                 "animalImage": "wolf.image",
+                "isFavorite": false,
                 "animalDescription": "A subspecies of gray wolves, adapted to survive in harsh Arctic environments."
             },
             {
                 "animalName": "Gibbon",
                 "animalImage": "gibbon.image",
-                "animalDescription": "Gibbons are small, tree-dwelling apes known for their long arms and ability to swing through trees using brachiation. They are monogamous, forming lifelong pair bonds and primarily feeding on fruits, leaves, and insects."
+                "isFavorite": false,
+                "animalDescription": "Gibbons are small, tree-dwelling apes known for their long arms and ability to swing through trees using brachiation."
             },
             {
                 "animalName": "Eagle",
                 "animalImage": "eagle.image",
+                "isFavorite": false,
                 "animalDescription": "A symbol of the USA, these powerful birds of prey have white heads and strong talons."
             },
             {
                 "animalName": "Owl",
                 "animalImage": "owl.image",
-                "animalDescription": "Owls are nocturnal birds of prey known for their exceptional hearing, silent flight, and distinctive round faces. They primarily hunt small mammals, birds, and insects, using their keen eyesight and ability to rotate their heads up to 270 degrees."
+                "isFavorite": false,
+                "animalDescription": "Owls are nocturnal birds of prey known for their exceptional hearing, silent flight, and distinctive round faces."
             },
             {
                 "animalName": "Snake",
                 "animalImage": "snake.image",
+                "isFavorite": false,
                 "animalDescription": "Legless reptiles that vary widely in size, habitat, and diet."
             },
             {
                 "animalName": "Iguana",
                 "animalImage": "iguana.image",
+                "isFavorite": false,
                 "animalDescription": "Herbivorous lizards often found in tropical rainforests."
             }
         ]
@@ -219,35 +261,42 @@
     {
         "zooName": "Taronga Zoo",
         "zooImage": "taronga.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Tasmanian Devil",
                 "animalImage": "devil.image",
+                "isFavorite": false,
                 "animalDescription": "Carnivorous marsupials native to Tasmania, known for their loud screeches and powerful bites."
             },
             {
                 "animalName": "Platypuse",
                 "animalImage": "platypuse.image",
+                "isFavorite": false,
                 "animalDescription": "Unique mammals from Australia that lay eggs and have duck-like bills."
             },
             {
                 "animalName": "Cockatoo",
                 "animalImage": "cockatoo.image",
+                "isFavorite": false,
                 "animalDescription": "Australian parrots with crests and loud calls."
             },
             {
                 "animalName": "Emus",
                 "animalImage": "emus.image",
+                "isFavorite": false,
                 "animalDescription": "Large, flightless birds native to Australia, similar to ostriches."
             },
             {
                 "animalName": "Kookaburra",
                 "animalImage": "kookabura.image",
+                "isFavorite": false,
                 "animalDescription": "Known for their distinctive laughing call, these birds are found in Australia."
             },
             {
                 "animalName": "Frilled Lizards",
                 "animalImage": "lizard.image",
+                "isFavorite": false,
                 "animalDescription": "Known for their neck frill that they expand when threatened."
             }
         ]
@@ -255,71 +304,85 @@
     {
         "zooName": "Prague Zoo",
         "zooImage": "prague.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Horse",
                 "animalImage": "horse.image",
+                "isFavorite": false,
                 "animalDescription": "Rare and wild horse species, native to Central Asia, with a stocky build and short mane."
             },
             {
                 "animalName": "Chimpanzee",
                 "animalImage": "chimpanzee.image",
+                "isFavorite": false,
                 "animalDescription": "Highly intelligent primates, chimps live in social groups and use tools in the wild."
             },
             {
                 "animalName": "Camel",
                 "animalImage": "camel.image",
+                "isFavorite": false,
                 "animalDescription": "Adapted to desert life, camels store fat in their humps and can go long periods without water."
             },
             {
                 "animalName": "Penguin",
                 "animalImage": "penguin.image",
+                "isFavorite": false,
                 "animalDescription": "Flightless birds adapted for swimming, found mostly in the Southern Hemisphere."
             },
             {
                 "animalName": "Heron",
                 "animalImage": "heron.image",
+                "isFavorite": false,
                 "animalDescription": "Herons are large wading birds with long necks, legs, and sharp beaks, commonly found near wetlands, rivers, and lakes."
             },
             {
                 "animalName": "Lizards",
                 "animalImage": "lizard.image",
+                "isFavorite": false,
                 "animalDescription": "Lizards are a diverse group of reptiles with scaly skin, ranging in size from tiny geckos to large Komodo dragons."
             }
         ]
     },
     {
-        "zooName": "Zoological Garden",
+        "zooName": "Zoo Garden",
         "zooImage": "africa.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Hippos",
                 "animalImage": "hippo.image",
+                "isFavorite": false,
                 "animalDescription": "Large, semi-aquatic mammals with powerful jaws and a love for rivers and lakes."
             },
             {
                 "animalName": "Giraffe",
                 "animalImage": "giraffe.image",
+                "isFavorite": false,
                 "animalDescription": "The tallest land animals, giraffes use their long necks to reach leaves on tall trees."
             },
             {
                 "animalName": "Ostriche",
                 "animalImage": "ostriche.image",
+                "isFavorite": false,
                 "animalDescription": "Ostrichesare large, flightless birds native to Africa, known for their long legs and powerful running abilities, capable of reaching speeds up to 45 miles per hour."
             },
             {
                 "animalName": "Grey Parrots",
                 "animalImage": "gparrot.image",
+                "isFavorite": false,
                 "animalDescription": "African Grey Parrots are highly intelligent birds native to the rainforests of West and Central Africa, renowned for their advanced ability to mimic human speech and other sounds."
             },
             {
                 "animalName": "Python",
                 "animalImage": "python.image",
+                "isFavorite": false,
                 "animalDescription": "Pythons are large, non-venomous snakes found primarily in Africa, Asia, and Australia, known for their powerful constricting abilities to subdue prey."
             },
             {
                 "animalName": "Turtle",
                 "animalImage": "turtle.image",
+                "isFavorite": false,
                 "animalDescription": "Turtles are reptiles with hard, protective shells that shield them from predators."
             }
         ]
@@ -327,35 +390,42 @@
     {
         "zooName": "Beijing Zoo ",
         "zooImage": "beijing.image",
+        "isFavorite": false,
         "animals": [
             {
                 "animalName": "Red Panda",
                 "animalImage": "rpanda.image",
+                "isFavorite": false,
                 "animalDescription": "Small, tree-dwelling mammals native to the Himalayas, with reddish fur and a bushy tail."
             },
             {
                 "animalName": "Asian Elephant",
                 "animalImage": "elephant.image",
+                "isFavorite": false,
                 "animalDescription": "Asian Elephants are slightly smaller than their African counterparts and are native to Southeast Asia, including India, Sri Lanka, and Thailand."
             },
             {
                 "animalName": "Gibbon",
                 "animalImage": "gibbon.image",
+                "isFavorite": false,
                 "animalDescription": "Gibbons are small, tree-dwelling apes known for their long arms and ability to swing through trees using brachiation."
             },
             {
                 "animalName": "Swan",
                 "animalImage": "swan.image",
+                "isFavorite": false,
                 "animalDescription": "Graceful waterfowl with long necks and white or black feathers."
             },
             {
                 "animalName": "Crane",
                 "animalImage": "crane.image",
+                "isFavorite": false,
                 "animalDescription": "Tall, wading birds often associated with wetlands and prairies."
             },
             {
                 "animalName": "Alligator",
                 "animalImage": "alligator.image",
+                "isFavorite": false,
                 "animalDescription": "Large reptiles found in freshwater wetlands, with U-shaped snouts and powerful tails."
             }
         ]

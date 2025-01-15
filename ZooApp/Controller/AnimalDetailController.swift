@@ -9,9 +9,7 @@ import UIKit
 
 class AnimalDetailController: UIViewController {
 
-    
     @IBOutlet weak var detailImage: UIImageView!
-    
     @IBOutlet weak var effectImage: UIImageView!
     @IBOutlet weak var animalDescriprionLabel: UILabel!
     @IBOutlet weak var animalNameLabel: UILabel!
@@ -27,9 +25,6 @@ class AnimalDetailController: UIViewController {
             animalImageView.image = UIImage(named: animal.animalImage ?? "")
             animalNameLabel.text = animal.animalName
             animalDescriprionLabel.text = animal.animalDescription
-            
         }
     }
-
-
 }

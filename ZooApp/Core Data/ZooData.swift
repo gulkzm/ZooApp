@@ -26,7 +26,7 @@ class ZooData {
         coreData.saveData(zoosDetail: zoo6)
         let zoo7 = ZoosDetail(name: "Taronga Zoo", image: "taronga.image", adultPrice: "$53", childPrice: "$31", location: "Sydney, Australia")
         coreData.saveData(zoosDetail: zoo7)
-        let zoo8 = ZoosDetail(name: "Prague Zoo", image: "pragie.image", adultPrice: "$13", childPrice: "$10", location: "Prague, Czech Republic")
+        let zoo8 = ZoosDetail(name: "Prague Zoo", image: "prague.image", adultPrice: "$13", childPrice: "$10", location: "Prague, Czech Republic")
         coreData.saveData(zoosDetail: zoo8)
         let zoo9 = ZoosDetail(name: "National Zoological Gardens", image: "africa.image", adultPrice: "$5", childPrice: "$3", location: "Pretoria, South Africa")
         coreData.saveData(zoosDetail: zoo9)

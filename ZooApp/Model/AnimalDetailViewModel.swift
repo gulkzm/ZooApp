@@ -13,7 +13,4 @@ class AnimalDetailViewModel {
     var success: (() -> Void)?
     var errorHandler: ((String) -> Void)?
     
-//    func configuredetailData() {
-//        animals = animalDetail?. ?? []
-//    }
 }

@@ -8,14 +8,13 @@
 import UIKit
 
 class ZooDetailController: UIViewController {
-    @IBAction func searchTextField(_ sender: Any) {
-    }
-    
+  
     @IBOutlet weak var collection: UICollectionView!
     var context = AppDelegate().persistentContainer.viewContext
     
     var core: CoreData?
     let zooData = ZooData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,11 +25,21 @@ class ZooDetailController: UIViewController {
         zooData.loadData()
         core = CoreData(context: context)
         core?.fetchData()
+        
+        let navigationAppearance = UINavigationBarAppearance()
+        navigationAppearance.configureWithTransparentBackground()
+        navigationAppearance.backgroundColor = .white
+        navigationController?.navigationBar.scrollEdgeAppearance = navigationAppearance
+        navigationController?.navigationBar.standardAppearance = navigationAppearance
+        navigationController?.navigationBar.compactAppearance = navigationAppearance
+        
+        let tabBarAppearance = UITabBarAppearance()
+        tabBarAppearance.configureWithTransparentBackground()
+        tabBarAppearance.backgroundColor = .verylight
+        navigationController?.tabBarItem.scrollEdgeAppearance = tabBarAppearance
+        navigationController?.tabBarItem.standardAppearance = tabBarAppearance
     }
-    
-    @IBAction func searchAction(_ sender: Any) {
-    }
-    
+
     func configureUI() {
         collection.register(UINib(nibName: "\(ZooDetailCell.self)", bundle: nil), forCellWithReuseIdentifier: "\(ZooDetailCell.self)")
     }

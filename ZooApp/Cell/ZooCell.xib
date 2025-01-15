@@ -19,14 +19,32 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4M-Yj-Ue1">
                         <rect key="frame" x="0.0" y="0.0" width="208" height="136"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzb-td-Zrh">
+                                <rect key="frame" x="176" y="112" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="Rrf-6g-Cql"/>
+                                    <constraint firstAttribute="width" constant="16" id="hYN-1t-46c"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="favoriteButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="jmB-vW-gvj"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" name="darkGreen"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mzb-td-Zrh" secondAttribute="bottom" constant="8" id="BBi-lK-h37"/>
+                            <constraint firstAttribute="trailing" secondItem="mzb-td-Zrh" secondAttribute="trailing" constant="16" id="fS9-CD-dGQ"/>
+                        </constraints>
                     </view>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wpH-2G-6W4">
                         <rect key="frame" x="0.0" y="0.0" width="208" height="104"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBc-aO-K6v">
-                        <rect key="frame" x="16" y="107" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <rect key="frame" x="16.000000000000004" y="111" width="35.333333333333343" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -52,6 +70,7 @@
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
             <connections>
+                <outlet property="favoriteButton" destination="mzb-td-Zrh" id="wsW-ux-a8c"/>
                 <outlet property="image" destination="wpH-2G-6W4" id="UZ3-5I-fUO"/>
                 <outlet property="label" destination="jBc-aO-K6v" id="jqH-YD-rCs"/>
             </connections>
